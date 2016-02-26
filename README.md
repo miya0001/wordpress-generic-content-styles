@@ -29,5 +29,5 @@ wp_enqueue_styles(
 
 ## How to customize
 
-* Please edit the `.scss` files.
+* Please edit the `sass/config.scss` files.
 * Then run `gulp` or `npm run build`.
