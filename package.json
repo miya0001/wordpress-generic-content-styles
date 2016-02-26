@@ -4,7 +4,7 @@
   "description": "This is a Sass based project for the styles of WordPress content.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node_modules/gulp/bin/gulp.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/miya0001/generic-wordpress-content-styles#readme",
   "dependencies": {
+    "gulp": "^3.9.1",
     "gulp-sass": "^2.2.0"
   }
 }
