@@ -21,7 +21,7 @@ Put the code like following into your theme's functions.php.
 ```
 wp_enqueue_styles(
   'generic-wordpress-content-styles',
-  'path/to/generic-wordpress-content-styles.css',
+  'path/to/css/content-styles.css',
   array(),
   'v0.1.0'
 );
