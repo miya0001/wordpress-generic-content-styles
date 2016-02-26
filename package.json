@@ -1,0 +1,19 @@
+{
+  "name": "generic-wordpress-content-styles",
+  "version": "0.1.0",
+  "description": "This is a Sass based project for the styles of WordPress content.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miya0001/generic-wordpress-content-styles.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miya0001/generic-wordpress-content-styles/issues"
+  },
+  "homepage": "https://github.com/miya0001/generic-wordpress-content-styles#readme"
+}
