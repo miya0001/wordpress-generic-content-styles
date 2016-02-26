@@ -18,6 +18,7 @@
   "homepage": "https://github.com/miya0001/generic-wordpress-content-styles#readme",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.2.0"
+    "gulp-sass": "^2.2.0",
+    "gulp-watch": "^4.3.5"
   }
 }
