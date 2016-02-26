@@ -21,13 +21,13 @@ Put the code like following into your theme's functions.php.
 ```
 wp_enqueue_styles(
   'generic-wordpress-content-styles',
-  `path/to/generic-wordpress-content-styles.css`,
+  'path/to/generic-wordpress-content-styles.css',
   array(),
-  'v1.x.x'
+  'v0.1.0'
 );
 ```
 
 ## How to customize
 
-* Please edit the .scss files.
-* Then run `gulp`. 
+* Please edit the `.scss` files.
+* Then run `gulp` or `npm run build`.

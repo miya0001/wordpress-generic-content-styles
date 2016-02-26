@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/miya0001/generic-wordpress-content-styles/issues"
   },
-  "homepage": "https://github.com/miya0001/generic-wordpress-content-styles#readme"
+  "homepage": "https://github.com/miya0001/generic-wordpress-content-styles#readme",
+  "dependencies": {
+    "gulp-sass": "^2.2.0"
+  }
 }
