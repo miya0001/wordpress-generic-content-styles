@@ -1,5 +1,7 @@
 # WordPress Generic Content Styles
 
+[![Build Status](https://travis-ci.org/miya0001/wordpress-generic-content-styles.svg?branch=master)](https://travis-ci.org/miya0001/wordpress-generic-content-styles)
+
 This is a Sass based project for the styles of WordPress content.
 
 ## How to use
