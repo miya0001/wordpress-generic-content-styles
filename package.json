@@ -1,5 +1,5 @@
 {
-  "name": "generic-wordpress-content-styles",
+  "name": "wordpress-generic-content-styles",
   "version": "0.1.0",
   "description": "This is a Sass based project for the styles of WordPress content.",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "url": "https://github.com/miya0001/generic-wordpress-content-styles/issues"
   },
   "homepage": "https://github.com/miya0001/generic-wordpress-content-styles#readme",
-  "dependencies": {
+  "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^2.2.0",
     "gulp-watch": "^4.3.5"

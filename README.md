@@ -1,4 +1,4 @@
-# Generic Content Styles
+# WordPress Generic Content Styles
 
 This is a Sass based project for the styles of WordPress content.
 
@@ -7,21 +7,38 @@ This is a Sass based project for the styles of WordPress content.
 Change directory into the your theme and then run following.
 
 ```
-$ npm install generic-wordpress-content-styles
+$ npm init
+$ npm install gulp gulp-sass
+$ npm install https://github.com/miya0001/wapuu-gallery-vr.git --save
 ```
 
-Or
+Place `gulpfile.js` like following.
 
 ```
-$ bower install generic-wordpress-content-styles
+'use strict';
+
+var gulp = require( 'gulp' );
+var sass = require( 'gulp-sass' );
+
+gulp.task( 'sass', function () {
+  return gulp.src( 'node_modules/wordpress-generic-content-styles/sass/content-styles.scss' )
+    .pipe( sass().on( 'error', sass.logError ) )
+    .pipe( gulp.dest( './css/' ) );
+} );
+```
+
+Run `gulp`.
+
+```
+$ gulp sass
 ```
 
 Put the code like following into your theme's functions.php.
 
 ```
 wp_enqueue_styles(
-  'generic-wordpress-content-styles',
-  'path/to/css/content-styles.css',
+  'wordpress-generic-content-styles',
+  get_stylesheet_directory_uri() . '/css/content-styles.css',
   array(),
   'v0.1.0'
 );
