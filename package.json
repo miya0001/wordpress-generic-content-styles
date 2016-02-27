@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "watch": "node_modules/gulp/bin/gulp.js watch",
-    "build": "node_modules/gulp/bin/gulp.js"
+    "build": "node_modules/gulp/bin/gulp.js",
+    "test": "node_modules/gulp/bin/gulp.js test"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/miya0001/generic-wordpress-content-styles#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-csslint": "^0.2.0",
     "gulp-sass": "^2.2.0",
     "gulp-watch": "^4.3.5"
   }
