@@ -22,8 +22,7 @@ gulp.task( 'default', [ 'sass' ], function () {
 gulp.task( 'lint', function() {
   gulp.src( 'css/*.css' )
     .pipe( csslint() )
-    .pipe( csslint.reporter() )
-    .pipe( csslint.reporter( 'fail' ) );
+    .pipe( csslint.reporter() );
 } );
 
 gulp.task( 'test', [ 'lint' ], function () {
