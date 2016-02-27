@@ -4,19 +4,19 @@
 {
 	img
 	{
-		margin: 0 0 1.5em 0;
+		margin: 0 0 $image-margin 0;
 	}
 
 	.alignleft, img.alignleft
 	{
-		margin-right: 1.5em;
+		margin-right: $image-margin;
 		display: inline;
 		float: left;
 	}
 
 	.alignright, img.alignright
 	{
-		margin-left: 1.5em;
+		margin-left: $image-margin;
 		display: inline;
 		float: right;
 	}
