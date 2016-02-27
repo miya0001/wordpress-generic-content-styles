@@ -33,7 +33,7 @@ Run `gulp`.
 $ gulp sass
 ```
 
-Put the code like following into your theme's functions.php.
+Put the code like following into your theme's `functions.php`.
 
 ```
 wp_enqueue_styles(
@@ -43,8 +43,3 @@ wp_enqueue_styles(
   'v0.1.0'
 );
 ```
-
-## How to customize
-
-* Please edit the `sass/config.scss` files.
-* Then run `gulp` or `npm run build`.
