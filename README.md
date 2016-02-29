@@ -45,3 +45,12 @@ wp_enqueue_styles(
   'v0.1.0'
 );
 ```
+
+## How to contribute
+
+```
+$ git clone git@github.com:miya0001/wordpress-generic-content-styles.git
+$ cd wordpress-generic-content-styles
+$ atom .
+$ npm run serve
+```

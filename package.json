@@ -4,7 +4,7 @@
   "description": "This is a Sass based project for the styles of WordPress content.",
   "main": "index.js",
   "scripts": {
-    "watch": "node_modules/gulp/bin/gulp.js watch",
+    "serve": "node_modules/gulp/bin/gulp.js serve",
     "build": "node_modules/gulp/bin/gulp.js",
     "test": "node_modules/gulp/bin/gulp.js test"
   },
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/miya0001/generic-wordpress-content-styles#readme",
   "devDependencies": {
+    "browser-sync": "^2.11.1",
     "gulp": "^3.9.1",
     "gulp-csslint": "^0.2.0",
     "gulp-sass": "^2.2.0",
