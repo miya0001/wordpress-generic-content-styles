@@ -1,3 +1,8 @@
-@import "defaults";
-@import "styles/common-styles";
-@import "styles/wordpress-classes";
+.entry-content
+{
+	@import "defaults";
+	@import "styles/common-styles";
+	@import "styles/wordpress-classes";
+	@import "styles/responsive";
+	@import "styles/addtional-styles";
+}

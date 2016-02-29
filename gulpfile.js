@@ -20,7 +20,7 @@ gulp.task('watch', ['sass'], function() {
 // Compile sass into CSS & auto-inject into browsers
 gulp.task( 'sass', function() {
 	return gulp.src( 'sass/content-styles.scss' )
-		.pipe( sass().on( 'error', sass.logError ) )
+		.pipe( sass( { outputStyle: 'expanded' } ).on( 'error', sass.logError ) )
 		.pipe( gulp.dest( 'css' ) )
 		.pipe( browserSync.stream() );
 } );

@@ -1,126 +1,123 @@
 /* == WordPress WYSIWYG Editor Styles == */
 
-.entry-content
+.alignleft, img.alignleft
 {
-	.alignleft, img.alignleft
-	{
-		margin-right: $image-margin;
-		display: inline;
-		float: left;
-	}
+	margin-right: $image-margin;
+	display: inline;
+	float: left;
+}
 
-	.alignright, img.alignright
-	{
-		margin-left: $image-margin;
-		display: inline;
-		float: right;
-	}
+.alignright, img.alignright
+{
+	margin-left: $image-margin;
+	display: inline;
+	float: right;
+}
 
-	.aligncenter, img.aligncenter
-	{
-		margin-right: auto;
-		margin-left: auto;
-		display: block;
-		clear: both;
-	}
+.aligncenter, img.aligncenter
+{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+}
 
-	.alignnone, img.alignnone
-	{
-		/* not sure about this one */
-	}
+.alignnone, img.alignnone
+{
+	/* not sure about this one */
+}
 
-	.wp-caption
-	{
-		margin-bottom: 1.5em;
-		text-align: center;
-		padding-top: 5px;
-	}
+.wp-caption
+{
+	margin-bottom: 1.5em;
+	text-align: center;
+	padding-top: 5px;
+}
 
-	.wp-caption img
-	{
-		border: 0 none;
-		padding: 0;
-		margin: 0;
-	}
+.wp-caption img
+{
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+}
 
-	.wp-caption p.wp-caption-text
-	{
-		line-height: 1.5;
-		font-size: 10px;
-		margin: 0;
-	}
+.wp-caption p.wp-caption-text
+{
+	line-height: 1.5;
+	font-size: 10px;
+	margin: 0;
+}
 
-	.wp-smiley
-	{
-		margin: 0 !important;
-		max-height: 1em;
-	}
+.wp-smiley
+{
+	margin: 0 !important;
+	max-height: 1em;
+}
 
-	blockquote.left
-	{
-		margin-right: 20px;
-		text-align: right;
-		margin-left: 0;
-		width: 33%;
-		float: left;
-	}
+blockquote.left
+{
+	margin-right: 20px;
+	text-align: right;
+	margin-left: 0;
+	width: 33%;
+	float: left;
+}
 
-	blockquote.right
-	{
-		margin-left: 20px;
-		text-align: left;
-		margin-right: 0;
-		width: 33%;
-		float: right;
-	}
+blockquote.right
+{
+	margin-left: 20px;
+	text-align: left;
+	margin-right: 0;
+	width: 33%;
+	float: right;
+}
 
-	.gallery dl
-	{
+.gallery dl
+{
 
-	}
+}
 
-	.gallery dt
-	{
+.gallery dt
+{
 
-	}
+}
 
-	.gallery dd
-	{
+.gallery dd
+{
 
-	}
+}
 
-	.gallery dl a
-	{
+.gallery dl a
+{
 
-	}
+}
 
-	.gallery dl img
-	{
+.gallery dl img
+{
 
-	}
+}
 
-	.gallery-caption
-	{
+.gallery-caption
+{
 
-	}
+}
 
-	.size-full
-	{
+.size-full
+{
 
-	}
+}
 
-	.size-large
-	{
+.size-large
+{
 
-	}
+}
 
-	.size-medium
-	{
+.size-medium
+{
 
-	}
+}
 
-	.size-thumbnail
-	{
+.size-thumbnail
+{
 
-	}
 }
