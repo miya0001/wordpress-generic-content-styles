@@ -51,6 +51,7 @@ wp_enqueue_styles(
 ```
 $ git clone git@github.com:miya0001/wordpress-generic-content-styles.git
 $ cd wordpress-generic-content-styles
+$ npm install
 $ atom .
 $ npm run serve
 ```
