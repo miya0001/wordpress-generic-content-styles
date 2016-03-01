@@ -1,12 +1,13 @@
 img
 {
-	margin: 0 0 $image-margin 0;
-	max-width: 100%;
-	height: auto;
 	box-sizing: border-box;
+	height: auto;
+	margin: 0 0 $image-margin;
+	max-width: 100%;
 }
 
-ul, ol
+ul,
+ol
 {
 	margin: 0 0 $line-margin 3em;
 }
@@ -44,7 +45,12 @@ table
 	width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
 {
 	clear: both;
 }
@@ -54,7 +60,10 @@ p
 	margin-bottom: $line-margin;
 }
 
-dfn, cite, em, i
+dfn,
+cite,
+em,
+i
 {
 	font-style: normal;
 	font-weight: bolder;
