@@ -4,6 +4,7 @@ node_js:
 - '0.10'
 before_script:
     - npm install
+    - bundle install --path vendor/bundle
     - npm run build
 script:
     - npm test
