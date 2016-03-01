@@ -55,3 +55,10 @@ $ npm install
 $ atom .
 $ npm run serve
 ```
+
+### Automated testing
+
+```
+$ bundle install --path vendor/bundle
+$ npm test
+```
