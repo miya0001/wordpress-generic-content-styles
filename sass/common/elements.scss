@@ -5,3 +5,71 @@ img
 	height: auto;
 	box-sizing: border-box;
 }
+
+ul, ol
+{
+	margin: 0 0 $line-margin 3em;
+}
+
+ul
+{
+	list-style: disc;
+}
+
+ol
+{
+	list-style: decimal;
+}
+
+li > ul,
+li > ol
+{
+	margin-bottom: 0;
+	margin-left: $line-margin;
+}
+
+dt
+{
+	font-weight: bold;
+}
+
+dd
+{
+	margin: 0 $line-margin $line-margin;
+}
+
+table
+{
+	margin: 0 0 $line-margin;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	clear: both;
+}
+
+p
+{
+	margin-bottom: $line-margin;
+}
+
+dfn, cite, em, i
+{
+	font-style: normal;
+	font-weight: bolder;
+}
+
+blockquote
+{
+	margin: 0 $line-margin;
+}
+
+address
+{
+	margin: 0 0 $line-margin;
+}
+
+pre {
+	margin-bottom: $line-margin;
+}

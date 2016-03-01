@@ -21,8 +21,9 @@
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.1",
-    "gulp-csslint": "^0.2.0",
     "gulp-sass": "^2.2.0",
+    "gulp-sass-lint": "^1.1.1",
+    "gulp-scss-lint": "^0.3.9",
     "gulp-watch": "^4.3.5"
   }
 }

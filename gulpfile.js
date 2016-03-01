@@ -1,9 +1,9 @@
 'use strict';
 
-var gulp = require( 'gulp' );
-var sass = require( 'gulp-sass' );
-var csslint = require( 'gulp-csslint' );
-var browserSync = require( 'browser-sync' ).create();
+var gulp = require( 'gulp' ),
+	sass = require( 'gulp-sass' ),
+	scsslint = require('gulp-scss-lint'),
+	browserSync = require( 'browser-sync' ).create();
 
 // Static Server + watching scss/html files
 gulp.task('watch', ['sass'], function() {
@@ -29,9 +29,13 @@ gulp.task( 'serve', [ 'sass', 'watch' ] );
 gulp.task( 'default', [ 'sass' ] );
 
 gulp.task( 'lint', function() {
-	gulp.src( 'css/*.css' )
-		.pipe( csslint() )
-		.pipe( csslint.reporter() );
+	return gulp.src('sass/**/*.scss')
+		.pipe( scsslint( {
+			'reporterOutputFormat': 'Checkstyle',
+			'bundleExec': true,
+			'config': 'scss-lint.yml'
+		} ) )
+		.pipe( scsslint.failReporter() );
 } );
 
 gulp.task( 'test', [ 'lint' ], function () {
